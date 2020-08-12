@@ -1,0 +1,38 @@
+body{
+    overflow-x: hidden;
+}
+.center img{
+    width: 1500px;
+    position: relative;
+    bottom: 50px;
+    height: 850px;
+}
+
+.top-left{
+    width: 65px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+@media (max-width:800px) { 
+    body{
+        overflow-x: hidden;
+    }
+
+    .center img{
+        right: 265px;
+        width: auto;
+        overflow-x: hidden;
+      
+ 
+
+      
+    }
+    .top-left{
+        top: 15px;
+        left: 2px;
+        width: 53px;
+        z-index: 1;
+    }
+ }
