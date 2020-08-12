@@ -16,7 +16,7 @@ body{
 }
 
 @media (max-width:800px) { 
-    html, body {
+   html, body {
         overflow-x: hidden;
       }
      body {
@@ -24,9 +24,9 @@ body{
       }
 
     .center img{
-        right: 265px;
+        right: 205px;
         width: auto;
-        height: 700px;
+        height: 650px;
       
     }
     .top-left{
