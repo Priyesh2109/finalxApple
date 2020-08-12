@@ -16,17 +16,17 @@ body{
 }
 
 @media (max-width:800px) { 
-    body{
+    html, body {
         overflow-x: hidden;
-    }
+      }
+     body {
+        width:100%;
+      }
 
     .center img{
         right: 265px;
         width: auto;
-        overflow-x: hidden;
-      
- 
-
+        height: 700px;
       
     }
     .top-left{
