@@ -1,0 +1,23 @@
+footer {
+    height: 10vh;
+    position: relative;
+    bottom: 243px;
+  
+  }
+  
+  .footer-links {
+    display: flex;
+    list-style: none;
+    width: 35%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 60px;
+  }
+  
+  .footer-links li a {
+    color:gray;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 800;
+  }
