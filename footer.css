@@ -25,10 +25,21 @@ footer {
 
 @media screen and (max-width: 768px) {
   footer {
+    height: 10vh;
+    position: relative;
+    bottom: 243px;
     display: none;
+  
   }
-
+  
   .footer-links {
     display: none;
   }
+  
+  .footer-links li a {
+    display: none;
+  }
+
+
+  
 }
