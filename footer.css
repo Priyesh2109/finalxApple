@@ -20,7 +20,7 @@
     position: relative;
     display: inline-block;
     width:40px;
-    font-size: 20px;
+    font-size: 25px;
     height:48px;
     padding-top:12px;
     margin:0 2px;
@@ -33,15 +33,19 @@
   
   .fb:hover {
     background: #3b5a9b;
+    text-decoration: none;
   }
   .tw:hover{
     background: #2b97f1;
+    text-decoration: none;
   }
   .in:hover{
-    background:#527fa6;
+    background:indianred;
+    text-decoration: none;
   }
   .yt:hover{
     background:red;
+    text-decoration: none;
   }
   
 .social a:hover span {
@@ -64,4 +68,10 @@
   .social a:nth-of-type(4):before {
   content:'\f167';
   }
-  
+  @media screen and (max-width: 768px) {
+    .social{
+      position: absolute;
+     top: 550px;
+     left: 100px;
+    }
+  }
