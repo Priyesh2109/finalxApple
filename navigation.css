@@ -92,6 +92,8 @@ nav {
    text-decoration: underline;
    color: white;
   }
- 
+ #scroll-down-animation{
+  position: relative;
+ }
   
 }
