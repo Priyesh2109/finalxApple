@@ -1,7 +1,6 @@
-.products{
-    background-color:black;
-    height: 850px;
+.products img{
     width: 1500px;
-    position: absolute;
-    top: 805px;
+    position: relative;
+    bottom: 50px;
+    
 }
