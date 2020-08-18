@@ -50,7 +50,7 @@ nav {
     position: fixed;
     background:black;
     height: 500px;
-  top: 10px;
+    top: 10px;
   margin-left: 10px;
     width: 100%;
     flex-direction: column;
