@@ -10,7 +10,7 @@ const nextSlide = () => {
   const current = document.querySelector('.current');
   // Remove current class
   current.classList.remove('current');
-  // Check for next slide
+  // Check if the next image is there if not go to beggining
   if (current.nextElementSibling) {
     // Add current to next sibling
     current.nextElementSibling.classList.add('current');
@@ -26,12 +26,12 @@ const prevSlide = () => {
   const current = document.querySelector('.current');
   // Remove current class
   current.classList.remove('current');
-  // Check for prev slide
+  // Check if there is an product before
   if (current.previousElementSibling) {
     // Add current to prev sibling
     current.previousElementSibling.classList.add('current');
   } else {
-    // Add current to last
+    // display the last one.
     slides[slides.length - 1].classList.add('current');
   }
   setTimeout(() => current.classList.remove('current'));

@@ -2,7 +2,7 @@ body{
     overflow-x: hidden;
 }
 .center img{
-    width: 1500px;
+    width: 100%;
     position: relative;
     bottom: 50px;
     height: 850px;
